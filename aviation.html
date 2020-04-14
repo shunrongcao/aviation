@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Aviation Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+	<div id="cursor"></div>
+	<script type="text/javascript">
+		var cursor = document.getElementById('cursor');
+		document.addEventListener('mousemove', function(e){
+			var x = e.clientX;
+			var y = e.clientY;
+			cursor.style.left = x + "px";
+			cursor.style.top = y + "px";	
+		});
+	</script>	
+
+	<section class="zoom">
+		<img src="cloud1.png" id="layer1">
+		<img src="cloud2.png" id="layer2">
+		<img src="text.png" id="text">
+	</section>
+
+	<section class="about">
+		<h2>About the Project</h2>
+		<p> "Should a new Pickering International Airport be constructed?" Based on this question, this data story focuses on the analysis of the aviation situation in the GTA area to discuss the necessity of this proposal. From a small question, to a broader understanding.</p>
+		<p>How to read: This is a website built by <a href="https://www.shunrongcao.com">
+		Shunrong Cao</a>, April 2020. All illustrations and data visualizations are created by <a href="https://www.shunrongcao.com">
+		Shunrong Cao</a>. All sources are marked by a "Source" button that could be hovered on.</p> Sources for the web construction:&nbsp 1.<a href="https://www.futuresplatform.com/blog/future-airplanes">Cover Airplane Reference</a> &nbsp 2.<a href="https://www.youtube.com/watch?v=I3gv-GRlYvs&t=119s">Cover Effect</a></a> &nbsp 3.<a href="https://www.youtube.com/watch?v=IMV-hf4JIK0">Custom Cursor</a>
+		<p> Let's start the journey! </p>
+	</section>
+
+	<section class="story">
+
+		<h2>Data Story</h2>
+			<p>Pickering Airport is a proposed second International airport intended to serve the city of Toronto and the surrounding region.</p>
+			<p>According to the Pickering Lands Aviation Sector Analysis (p220), the reason of constructing a new Pickering International Airport is not only the lack of capacity in the southern Ontario airport system, but also other benefits:
+			<ul> 1) Stimulating Economic Growth</ul>
+			<ul> 2) Changes in Airport Roles and Airport Closures</ul>
+			<ul> 3) Improving Passenger Access to Air Services</ul></p>
+			<p>Here is some background and information.</p>
+
+		<img src="story1.png" id="story1">
+			<div class="tooltip"> Source
+			<span class="tooltiptext">
+				<li>Info Source:</li>
+					<li>url: https://en.wikipedia.org/wiki/Pickering_Airport</li>
+				<li>Design Source:</li>
+			<li>Viz Type: Regional Map, Tool: Adobe XD</li>
+		    <li>Map Reference: https://en.wikipedia.org/wiki/Toronto_Pearson_International_Airport#/media/
+		    File:Toronto_map.png</li></span>
+			</div>
+
+		<img src="story2.png" id="story2">
+			<div class="tooltip"> Source
+			<span class="tooltiptext">
+				<li>Info Source:</li>
+					<li>Government of Canada.</li>
+				<li>url: https://www.tc.gc.ca/en/services/aviation/operating-airports-aerodromes/airport-zoning-regulations/pickering-lands.html#toc1</li></span>
+			</div>
+
+		<img src="story3.png" id="story3">
+			<div class="tooltip"> Source
+			<span class="tooltiptext">
+				<li>News Source:</li>
+					<li>1. Yes: https://www.thestar.com/opinion/contributors/thebigdebate/2019/04/23/should-pickering-airport-be-built-yes.html</li>
+					<li>2. No: https://www.thestar.com/opinion/contributors/thebigdebate/2019/04/23/should-pickering-airport-be-built-no.html</li>
+				<li>Design Source:</li>
+				<li>Viz Type: Tidy Tree, Tool: Adobe XD</li>
+				<li>ICON Source: Pablo Stanley. url: https://www.openpeeps.com</li>
+			</span>
+			</div>		
+
+		<p>By comparing these opinions, <br/>we can examine the main reasons for the answers of “yes” or “no”:
+		<ul> 1) For those who said “yes, it should be built”, they believe that the CAPACITY of airport systems could not take the aviation traffic in the future; however, those supporting “no, it should not be built” consider that there are already enough airports.</ul>
+		<ul> 2) For those who said “yes”, they consider the benefit of ECONOMICS as an important reason to support the proposal.</ul>
+		<ul> 3) In terms of GROUND TRANSPORTATION, those said “yes” think it takes too much time for people in Durham and York to reach Pearson, yet those said “no” believe that to solve this problem, the government should work more on the rail instead of a new airport.</ul>
+		<ul> 4) ENVIRONMENTAL IMPACT is a concern for those said “no”, but according to those said “yes”, they think long-time ground transportation (such as from Durham to Pearson) causes more pollution. </ul></p>
+		<p>Thus, it is valuable to analyze the “small” question of “Should the Pickering Airport be built?” through these four aspects, to have a broader and deeper view that is generated from this small question.
+		</p>
+
+		<img src="story4.png" id="story4">
+			<div class="tooltip"> Source
+			<span class="tooltiptext">
+			<li>Design Source:</li>
+			<li>Image Reference: http://newsinflight.com/2019/02/05/air-canada-acquired-9-99-stake-in-jazz-aviation-in-97-26-million-equity-investment/</li>
+			<li>Viz Type: Exploded View Drawing, Tool: Adobe Photoshop</li>
+			</span>
+			</div>				
+	</section>
+
+	<section class="capacity">
+		<h2> Capacity </h2>
+		<p>Demand for air travel in Southern Ontario has been rising rapidly in the last decade. The total number of annual passengers enplaned and deplaned at international airports in the GGH grew 6.6% per year between 2010 and 2016 from 32.4 to 47.6 million, with Pearson handling over 93% of the traffic (Statistics Canada, 2018; Hamilton International Airport, 2017; Region of Waterloo International Airport, 2017).</p>
+		<p>As ranked second among North America airports for international connectivity, and <a href="https://dailyhive.com/toronto/toronto-pearson-airport-most-connected-ranking-2018">the 5th most connected mega-hub </a> globally, Lester B. Pearson International Airport serves as the main air hub in Toronto. To question if there is any need to construct a new Pickering Airport to relieve the aviation congestions, it is needed to analyze the flight data of Toronto Pearson Airport to calculate if the Capacity could fully meet the present and future demand of passengers.</p>
+
+		<img src="story5.png" id="story5">
+			<div class="tooltip"> Source
+			<span class="tooltiptext">
+				<li>Data Source:</li>
+					<li>Pickering Lands Aviation Sector Analysis Supply and Demand Report by KPMG, WSP, and MMM Group.</li>
+				<li>Design Source:</li>
+				<li>Viz Type: Bar Chart, Tool:Adobe XD</li>
+			</div>			
+
+			<p>Role of Pickering Airport:</p>
+			<p>According to the analysis by KPMG, Pickering Airport will probably become either an Industrial Airport or a specialty Passenger Airport, but not a primary Hub International Airport (due to conflict with Toronto Pearson Airport type and role), or a Passenger Feeder Airport (due to equivalent air service options at Toronto Pearson Airport), or a major cargo airport (due to conflict with Hamilton and Toronto Pearson Airport types and roles).(Pickering Lands Aviation Sector Analysis,p278)</p>
+			<p>The proposal is to create a secondary airport to handle excess traffic, with Pearson remaining the primary airport. Let's look at the analysis of cargo service and passenger capacity at Toronto Pearson Airport.</p>
+		<img src="story6.png" id="story6">
+			<div class="tooltip"> Source
+				<span class="tooltiptext">
+				<li>Data Source:</li>
+					<li>1. Statistics Canada. url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310025401</li>
+					<li>Toronto Pearson. url: https://www.torontopearson.com/en/corporate/partnering-with-us/air-services/airport-and-market-facts</li>
+				<li>Design Source:</li>
+				<li>Icon: Noun Project. url: https://thenounproject.com/search/?q=aviation&i=1128888</li>
+				<li>Viz Type: Area Chart, Tool: Flourish</li>
+			</div>	
+		<img src="story7.png" id="story7">
+			<div class="tooltip"> Source
+				<span class="tooltiptext">
+				<li>Data Source:</li>
+					<li>Passenger Growth:</li>
+					<li>Statistics Canada. url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310025301</li>
+					<li> url: https://tpprodcdnep.azureedge.net/-/media/project/pearson/content/corporate/
+					partnering/pdfs/traffic-summary-dec-2019.pdf?modified=20200219164900&la=en&hash=
+					7382988636838BD5B74BF33D19521630635EFA7E</li>
+					<li>Toronto Population</li>
+					<li>url: https://www.macrotrends.net/cities/20402/toronto/population</li>
+					<li>Ontario Population:</li>
+					<li>url: url: https://www.google.com/publicdata/explore?ds=z8mqirbqgu9tsm_&met_y=population&idim=territory:CA08:
+					CA02&hl=en&dl=en</li>
+				<li>Icon: Noun Project. url: https://thenounproject.com/search/?q=aviation&i=1128888</li>
+				<li>Viz Type: Area Chart, Tool: Flourish</li>
+			</div>	
+
+		<p>Interestingly, the growth of the International Sector is much more outstanding than the Domestic Sector and the Transborder Sector. In my perspective and understanding, the reasons might be:</p>
+		<ul>1) There are airports mainly for domestic flights and cargos in the GTA area. Besides Toronto Pearson International Airport, other airports are scheduled for commercial airline service, dealing with domestic flights and cargo in GTA: Billy Bishop Toronto City Airport, John C. Munro Hamilton International Airport, and Region of Waterloo International Airport. Among these, Hamilton Airport (and Toronto Pearson Airport) serves as the major Air Cargo Airport. At present, Pearson Airport is the only airport in Toronto that is in charge of international flights, thus it would be helpful if there is a new international airport to relieve the congestion of international flights at Pearson.</ul>
+		<ul>2) International flight needs are increasing inevitably because of globalization, and Toronto is a well-developed and inclusive city that attracts people all over the world.</ul>
+		<p> Besides the fact of the develop technology and growing economics, the reasons for the rapid increase of international aviations should include Tourism and International education.</p>
+
+		<img src="daylight1.png" id="daylight1">
+			<div class="tooltip"> Source
+				<span class="tooltiptext">
+				<li>Info Source:</li>
+					<li>CAPA - Centre for Aviation. url: https://blueswandaily.com/airport-insight-toronto-lester-b-pearson-international-airport/</li>
+				<li>Design Source:</li>
+				<li>Viz Type: Line Chart Race, Tool: Flourish</li>
+			</div>	
+
+		<div class="flourish-embed" data-src="visualisation/1885048" data-url="https://flo.uri.sh/visualisation/1885048/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+		
+
+		<img src="story8.png" id="story8">
+		<img src="story9.png" id="story9">
+			<div class="tooltip"> Source
+				<span class="tooltiptext">
+				<li>Data Source:</li>
+					<li>https://cbie.ca/wp-content/uploads/2018/09/International-Students-in-Canada-ENG.pdf</li>
+					<li>https://www.international.gc.ca/education/strategy-2019-2024-strategie.aspx?lang=eng</li>
+				<li>Design Source:</li>
+				<li>Icon: Noun Project. url: https://thenounproject.com/search/?q=education&i=1817512</li>
+				<li>Viz Type: Radial Bar Chart, Tool: Hanabi data viz, Adobe XD</li>
+			</div>	
+		<img src="connect.png" id="connect">
+
+		<div class="windowImage">
+				<img src="window0.png" alt="">
+		</div>	
+		<div class="myButton">
+			<button id="btn0">Info</button>
+			<button id="btn1">International</button>
+			<button id="btn2">Transborder</button>
+			<button id="btn3">Domestic</button>
+		</div>	
+
+		<script src="daynight.js"></script>
+
+			<div class="tooltip"> Source
+				<span class="tooltiptext">
+				<li>Data Source:</li>
+					<li>Toronto Pearson. url: https://www.torontopearson.com/en/airlines</li>
+				<li>Design Source:</li>
+				<li>Earth Image: The Blue Marble by the crew of Apollo 17 (1972). url: https://en.wikipedia.org/wiki/The_Blue_Marble</li>
+				<li>Viz Inspiration:  https://www.behance.net/gallery/89659403/Bureau-Oberhaeuser-Calendar-2020?tracking_source=search_projects_recommended%7Cdata%20visualization</li>
+				<li>Viz Tool: Adobe XD</li>
+			</div>	
+
+
+		<img src="connect2.png" id="connect2">
+
+
+
+	</section>
+
+	<section class="economic">
+		<h2> Economic Impact </h2>
+		<p>An independent study commissioned by the GTAA in 2016 concluded that Toronto Pearson contributes about $42 billion annually to Ontario’s economy or 6.3% of GDP. (Toronto Pearson)</p>
+		<p>Economic Benefits from Passengers:<br/> Aviation can bring economic benefits to Toronto, and international aviation could bring economic benefits to Canada. In 2017, 42% of visits (tourists, investors, and students) visiting Canada with economic impact arrived through Toronto Pearson. (GTAA 2018 Annual Report)</p>
+		<p>Economic Benefits from Cargos:<br/> In 2017, Toronto Pearson handled some $35 billion in goods shipped from producers in all provinces and territories to nearly every country around the globe. This represented about 67 percent of all Canadian exports by air. ($35 billion in exports to 200+ countries as air cargo) (GTAA 2018 Annual Report)</p>
+		<p>The new airport could also create jobs:</p>
+		
+
+		<img src="economic.png" id="economic">
+			<div class="tooltip"> Source
+				<span class="tooltiptext">
+				<li>Data Source:</li>
+					<li>Stats Canada, Annual Reports, media releases. url: https://pickeringairport.org/1748-2/</li>
+				<li>Design Source:</li>
+				<li>Viz Type: Alluvial Diagram, Tool: Flourish</li>
+			</div>	
+
+		<p>This chart shows that about 1000 direct jobs are created for every million paying passengers an airport handles. According to the GTAA Report of Pearson, it is facilitating more than 330,000 jobs and directly employing about 50,000 people. Thus if the new Pickering Airport is in passenger service and if it could take 11.9 million passengers in 2032 (<a href="https://web.archive.org/web/20081115194512/http://www.gtaa.com/local/files/en/PickeringAirportDraftPlanReport.pdf">Pickering Airport Draft Plan Report</a>), then there will be 12,000 direct jobs created. This corresponds with Durham Region Chair John Henry’s saying, “it could support around 150,000 direct and indirect jobs.” (<a href="https://www.cbc.ca/news/canada/toronto/pickering-airport-2020-update-1.5402994">CBC News</a>)</p>
+		<p>To do in the future (not completing now because of the time limit)
+	<ul>1) Comparison of the GDP in the GTA and the GDP that Pearson created each year.</ul>
+	<ul>2) Are there any commercial opportunities could be created because of the construction of Pickering Airport in Durham?</ul>
+	<ul>3) How much economic impact will the cargo service bring?</ul>
+	<ul>4) ...etc.</ul>
+
+	</section>
+
+	<section class="transportation">
+		<h2> Ground Transportation </h2>
+		<p>Why Pickering?</p>
+		<p>The Pickering Airport Lands are located within an integrated transportation network, including high capacity roads (e.g., Highways 401, 407, 7 and 2), Metrolinx GO Transit bus and train, rail services (e.g., CNR and CPR railways), as well as deep-sea port access in nearby Oshawa.</p>
+		<p>Compared with other potential areas, the development of this project would require less new infrastructure. (<a href="https://www.pickering.ca/en/business/unprecedented-opportunity.aspx">City of Pickering</a>)</p>
+
+		<img src="transportation.png" id="transportation">
+			<div class="tooltip"> Source
+				<span class="tooltiptext">
+				<li>Info Source:</li>
+					<li>1. url: https://www.pickering.ca/en/business/unprecedented-opportunity.aspx#</li>
+					<li>2. Pickering Lands Aviation Sector Analysis Supply and Demand Report by KPMG, WSP, and MMM Group.</li>
+				<li>Design Source:</li>
+				<li>Viz Type: Column Chart, Tool: Flourish</li>
+			</div>
+
+		<p>To do in the future (not completing now because of the time limit)
+		<ul>1) Routes for residents in the east GTA to get to different airports.</ul>
+		<ul>2) How much time could the residents in the east GTA save to get to the Pickering Airport than the Pearson Airport?</ul>
+		<ul>3) ...etc.</ul>
+	</section>
+
+	<section class="environment">
+		<h2>Environmental Impact</h2>
+		<p> Question:<br/> Is there any need to construct a new airport because of the above reasons, at the expense of the environment?</p>
+		<p>The construction of a new airport will have an environmental impact. And the construction also means more flights and more carbon footprints. I want to create an interactive page to visualize the emissions of air flights, using API for calculating flights emissions and leave this as an open-ended ended question. However, I did not have time to finish it and I will work on this in the future.</p>
+	</section>
+
+	<section class="review">
+		<h2>Literature Review</h2>
+		<li>Project Link:</li>
+		<p><a href="https://www.behance.net/gallery/91628957/AIR-CANADA">AIR CANADA Data visualization and map for Air Canada Magazine, 2019</a></p>
+		<li>My Review:</li>
+		<p><a href="https://docs.google.com/document/d/1VSuMBKkpcomemCW2H1lp31kdq645nxWYAtvu6pTY668/edit?usp=sharing">Analysis of Related Data Story</a></p>
+	</section>
+
+	<section class="csr">
+		<p>Created by 
+			<a href="https://www.shunrongcao.com">
+		Shunrong Cao</a></p>
+		<p>April 2020</p>
+	</section>
+
+
+
+	<script type="text/javascript">
+		var layer1 = document.getElementById('layer1')
+		scroll = window.pageYOffset;
+		document.addEventListener('scroll',
+			function (e) {
+			var offset = window.pageYOffset;
+			scroll = offset;
+			layer1.style.width = (100 + scroll/5) + '%';
+			});
+		var layer2 = document.getElementById('layer2')
+		scroll = window.pageYOffset;
+		document.addEventListener('scroll',
+			function (e) {
+			var offset = window.pageYOffset;
+			scroll = offset;
+			layer2.style.width = (100 + scroll/5) + '%';
+			layer2.style.left = scroll/50 + '%';
+			});
+		var text = document.getElementById('text')
+		scroll = window.pageYOffset;
+		document.addEventListener('scroll',
+			function (e) {
+			var offset = window.pageYOffset;
+			scroll = offset;
+			text.style.top = - scroll/20 + '%';
+			});
+	</script>
+
+</body>
+</html>
