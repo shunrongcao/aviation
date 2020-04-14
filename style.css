@@ -29,7 +29,7 @@ body{
 	height: 1000px;
 	position: relative;
 	overflow: hidden;
-	background: url(cover.jpg);
+	background: url(/Aviation/cover.jpg);
 	background-size: cover;
 }
 .zoom: before
